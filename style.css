@@ -1,0 +1,133 @@
+body{
+	font-family: cursive;
+ background:linear-gradient(to left,#8c2ef0,#63d7fa);
+}
+p{
+	color:white;
+}
+h1{
+ color:aliceblue;
+}
+#container{
+	margin: 20px auto;	
+}
+#calculator{
+	font-size: 20px;
+	width: 320px;
+	height: 520px;
+ padding: 20px 20px;
+ background:linear-gradient(to left,#79ffd2,#31cde2);
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 40px;
+ font-family:cursive;
+	
+}
+#result{
+	height: 140px;
+ font-family:cursive;
+}
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0px 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #000000;
+ font-family:cursive;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+		  grid-column: 1/-1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: upset;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+ 
+ font-family:cursive;
+ color: aliceblue;
+}
+#keyboard{
+	height: 400px;
+ font-family:cursive;
+
+}
+.operator, .number, .empty{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 15px;
+ font-family:cursive;
+}
+.number, .empty{
+	background-color: #eaedef;
+ 
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #20b2aa;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #ffa500;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f08080;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #9477af;
+}
+
+
+.operator:hover{
+	font-size:28px;
+ background: #44ee9f;
+box-shadow: 0px 0px 60px #034434;
+font-family:cursive;
+
+}
+.button:hover{
+	font-size:28px;
+ background: #75eed0;
+box-shadow: 0px 0px 60px #0f775d;
+font-family:cursive;
+
+}
+.number:hover{
+	 font-size:28px;
+  background: #59f394;
+ box-shadow: 0px 0px 70px #002e22;
+ font-family:monospace;
+ color: white;
+}
+h1:hover{
+	font-size:28px;
+color:#97ffcb;
+text-shadow:0px 0px 8px #63faae;
+}
